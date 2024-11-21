@@ -103,7 +103,7 @@
                 <div class="input-group">
                     <label>Initial Purchase Frequency (yearly)</label>
                     <input type="number" id="purchaseFrequency" value="1.5">
-                    <div class="decay-note">Decreases by 20% each year</div>
+                    <div class="decay-note">Decreases by 30% each year</div>
                 </div>
                 <div class="input-group">
                     <label>Cost per Enquiry (£)</label>
@@ -185,7 +185,7 @@
                 targetMarketing: parseFloat(document.getElementById('targetMarketing').value) / 100,
                 conversionRate: parseFloat(document.getElementById('conversionRate').value) / 100,
                 customerLifespan: parseFloat(document.getElementById('customerLifespan').value),
-                yearlyFrequencyDecay: 0.20 // 20% decrease per year
+                yearlyFrequencyDecay: 0.30 // 30% decrease per year
             };
 
             // Calculate true CPA considering conversion rate
